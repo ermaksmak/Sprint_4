@@ -21,35 +21,38 @@
 7. **test_get_books_with_specific_genre**
    - Проверяет, что метод возвращает книги с указанным жанром.
 
-8. **test_get_books_for_children**
-   - Проверяет, что метод правильно возвращает книги, подходящие для детей, и исключает те, которые не подходят.
+8. **test_get_books_for_children_list_is_empty**
+   - Проверяет, что метод правильно не возвращает книги, неподходящие для детей.
 
-9. **test_add_book_in_favorites**
-   - Проверяет, что книга может быть добавлена в избранные.
+9. **test_get_books_for_children_list_is_not_empty**
+   - Проверяет, что метод правильно возвращает книги, подходящие для детей.
 
-10. **test_delete_book_from_favorites**
-   - Проверяет удаление книги из списка избранных.
+10. **test_add_book_in_favorites**
+    - Проверяет, что книга может быть добавлена в избранные.
 
-11. **test_add_favorites_nonexistent_book**
+11. **test_delete_book_from_favorites**
+    - Проверяет удаление книги из списка избранных.
+
+12. **test_add_favorites_nonexistent_book**
     - Проверяет, что попытка добавить несуществующую книгу в избранное не приводит к ошибке и книга не добавляется.
 
-12. **test_add_duplicate_book_in_favorites**
+13. **test_add_duplicate_book_in_favorites**
     - Проверяет, что при добавлении одной и той же книги в избранное несколько раз, она добавляется только один раз.
 
-13. **test_set_and_get_genre**
+14. **test_set_and_get_genre**
     - Проверяет установку и получение жанра для книги.
 
-14. **test_adding_book_genre**
+15. **test_adding_book_genre**
     - Проверяет, что новая книга по умолчанию добавляется с пустым жанром.
 
-15. **test_books_with_no_genre**
+16. **test_books_with_no_genre**
     - Проверяет, что метод возвращает правильно книги без жанра.
 
-16. **test_invalid_genre**
+17. **test_invalid_genre**
     - Проверяет, что книги с несуществующим жанром не находятся.
 
-17. **test_get_books_genre**
+18. **test_get_books_genre**
     - Проверяет правильное получение словаря всех книг с их жанрами.
 
-18. **test_get_books_for_children_no_books**
+19. **test_get_books_for_children_no_books**
     - Проверяет, что метод возвращает пустой список, если нет книг, подходящих для детей.
